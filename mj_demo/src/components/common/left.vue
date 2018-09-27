@@ -53,20 +53,23 @@ export default {
 }
 </script>
 <<style scoped>
+    .left{
+        color: white;
+    }
     .menu{
-        margin:10px;
+        padding: 5px;
+        padding-left:30px;
         cursor:pointer;
     }
     .menuCurrent{
-        margin:10px;
-        margin-left:15px;
+        padding: 5px;
+        padding-left:30px;
         cursor:pointer;
-        color:blue;
+        background: #28344D;
     }
     .menu:hover{
-        margin-left:15px;
         cursor:pointer;
-        color:yellow;
+        background: #3a9fb6;
     }
 </style>
 

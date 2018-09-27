@@ -51,7 +51,8 @@ export default {
         background-color: #3a9fb6;     
     }
     .aside{
-        border-right: 1px solid black;   
+        border-right: 1px solid black;
+        background: #4B5770; 
     }
     
     .footer{
